@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Ma liste du jour</title>
+<style>
+:root{--bg:#0f1115;--card:#171a21;--line:#262b36;--text:#e8eaf0;--muted:#8d95a6;--accent:#4ea1ff;--ok:#3ecf8e;--no:#ff7a7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:20px 16px 56px}
+h1{font-size:1.5rem;margin:0 0 4px}
+#meta{margin:0 0 14px;color:var(--muted);text-transform:capitalize}
+#progress{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-bottom:6px}
+#bar{height:100%;width:0;background:var(--accent);transition:width .25s}
+#count{margin:0 0 18px;color:var(--muted);font-size:.9rem}
+#warnings{background:#2a2113;border:1px solid #5b4720;color:#f1d9a6;border-radius:10px;padding:10px 14px;margin-bottom:16px;font-size:.88rem}
+#warnings p{margin:2px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:16px}
+.card.labelled{opacity:.72}
+.media{position:relative;aspect-ratio:16/9;background:#000}
+.media iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.thumb{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;cursor:pointer;background-size:cover;background-position:center;background-color:#000}
+.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;font-size:26px;display:flex;align-items:center;justify-content:center}
+.body{padding:12px 14px 14px}
+.title{font-weight:600;margin:0 0 6px}
+.info{margin:0 0 12px;color:var(--muted);font-size:.86rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button.act{font:inherit;font-size:.92rem;border:1px solid var(--line);background:transparent;color:var(--text);border-radius:999px;padding:8px 14px;cursor:pointer}
+button.act.on-ok{background:var(--ok);border-color:var(--ok);color:#06210f}
+button.act.on-no{background:var(--no);border-color:var(--no);color:#2a0a0a}
+a.out{margin-left:auto;color:var(--accent);font-size:.88rem;text-decoration:none}
+#done{border:1px solid var(--ok);border-radius:14px;padding:18px;text-align:center;background:#0f2118}
+#done h2{margin:0 0 6px}
+#done p{margin:4px 0;color:#bfe9d2}
+#done button{margin-top:10px}
+#journal{display:block;margin-top:10px;max-height:160px;overflow:auto;text-align:left;font-size:.78rem;color:var(--muted);white-space:pre-wrap;word-break:break-all}
+#empty{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Ma liste du jour</h1>
+<p id="meta"></p>
+<div id="progress"><div id="bar"></div></div>
+<p id="count"></p>
+</header>
+<section id="warnings" hidden></section>
+<section id="list"></section>
+<section id="done" hidden>
+<h2>Terminé. À demain.</h2>
+<p id="done-text"></p>
+<button class="act" id="copy" type="button">Copier mon journal</button>
+<span id="journal" hidden></span>
+</section>
+</main>
+<script>
+(function () {
+  var KEY = "vf_feedback_v1";
+  var state = { data: null, feedback: {} };
+
+  function el(tag, className, text) {
+    var node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  function loadFeedback() {
+    try { return JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { return {}; }
+  }
+
+  function saveFeedback() {
+    try { localStorage.setItem(KEY, JSON.stringify(state.feedback)); } catch (e) {}
+  }
+
+  function formatDuration(seconds) {
+    var minutes = Math.round(seconds / 60);
+    if (minutes < 60) return minutes + " min";
+    var hours = Math.floor(minutes / 60);
+    var rest = minutes % 60;
+    return hours + " h " + (rest < 10 ? "0" : "") + rest;
+  }
+
+  function labelOf(id) {
+    var entry = state.feedback[id];
+    return entry ? entry.label : null;
+  }
+
+  function setLabel(id, label) {
+    state.feedback[id] = { label: label, day: state.data.day, ts: new Date().toISOString() };
+    saveFeedback();
+    refresh();
+  }
+
+  function buildCard(video) {
+    var card = el("article", "card");
+    card.dataset.id = video.id;
+
+    var media = el("div", "media");
+    var thumb = el("button", "thumb");
+    thumb.type = "button";
+    thumb.style.backgroundImage = "url('" + video.thumb + "')";
+    thumb.setAttribute("aria-label", "Lire : " + video.title);
+    thumb.appendChild(el("span", "play", "▶"));
+    thumb.addEventListener("click", function () {
+      var frame = document.createElement("iframe");
+      frame.src = "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(video.id) + "?autoplay=1&rel=0&playsinline=1";
+      frame.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      frame.allowFullscreen = true;
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
+      frame.title = video.title;
+      media.replaceChildren(frame);
+    });
+    media.appendChild(thumb);
+    card.appendChild(media);
+
+    var body = el("div", "body");
+    body.appendChild(el("p", "title", video.title));
+    var themeLabel = (state.data.theme_labels || {})[video.theme] || video.theme;
+    var parts = [video.channel, themeLabel, formatDuration(video.duration_s)];
+    if (video.lang) parts.push(video.lang.toUpperCase());
+    body.appendChild(el("p", "info", parts.join(" · ")));
+
+    var actions = el("div", "actions");
+    var good = el("button", "act", "Utile");
+    good.type = "button";
+    good.dataset.role = "good";
+    good.addEventListener("click", function () { setLabel(video.id, "utile"); });
+    var bad = el("button", "act", "Pas pour moi");
+    bad.type = "button";
+    bad.dataset.role = "bad";
+    bad.addEventListener("click", function () { setLabel(video.id, "pas_pour_moi"); });
+    var out = el("a", "out", "Ouvrir sur YouTube");
+    out.href = "https://www.youtube.com/watch?v=" + encodeURIComponent(video.id);
+    out.target = "_blank";
+    out.rel = "noopener noreferrer";
+    actions.appendChild(good);
+    actions.appendChild(bad);
+    actions.appendChild(out);
+    body.appendChild(actions);
+    card.appendChild(body);
+    return card;
+  }
+
+  function journalText() {
+    var rows = Object.keys(state.feedback).map(function (id) {
+      var entry = state.feedback[id];
+      return { video_id: id, label: entry.label, day: entry.day, ts: entry.ts };
+    });
+    return JSON.stringify(rows, null, 1);
+  }
+
+  function refresh() {
+    var videos = state.data.videos;
+    var done = 0;
+    var useful = 0;
+    videos.forEach(function (video) {
+      var card = document.querySelector('.card[data-id="' + video.id + '"]');
+      var label = labelOf(video.id);
+      if (label) done += 1;
+      if (label === "utile") useful += 1;
+      card.classList.toggle("labelled", Boolean(label));
+      card.querySelector('[data-role="good"]').className = "act" + (label === "utile" ? " on-ok" : "");
+      card.querySelector('[data-role="bad"]').className = "act" + (label === "pas_pour_moi" ? " on-no" : "");
+    });
+    var total = videos.length;
+    document.getElementById("bar").style.width = (total ? (done / total) * 100 : 0) + "%";
+    document.getElementById("count").textContent = done + " / " + total + " avec un avis";
+    var finished = total > 0 && done === total;
+    document.getElementById("done").hidden = !finished;
+    if (finished) {
+      document.getElementById("done-text").textContent = "Utiles : " + useful + " sur " + total + ".";
+    }
+  }
+
+  function render() {
+    var data = state.data;
+    var date = new Date(data.day + "T12:00:00");
+    document.getElementById("meta").textContent = date.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+    var warnings = data.warnings || [];
+    var box = document.getElementById("warnings");
+    if (warnings.length) {
+      box.hidden = false;
+      warnings.forEach(function (line) { box.appendChild(el("p", "", line)); });
+    }
+    var list = document.getElementById("list");
+    if (!data.videos.length) {
+      list.appendChild(el("p", "", "Rien pour aujourd'hui."));
+      list.lastChild.id = "empty";
+      return;
+    }
+    data.videos.forEach(function (video) { list.appendChild(buildCard(video)); });
+    refresh();
+  }
+
+  document.getElementById("copy").addEventListener("click", function () {
+    var text = journalText();
+    var area = document.getElementById("journal");
+    var show = function () { area.textContent = text; area.hidden = false; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        document.getElementById("copy").textContent = "Copié";
+      }, show);
+    } else {
+      show();
+    }
+  });
+
+  state.feedback = loadFeedback();
+  fetch("today.json", { cache: "no-store" })
+    .then(function (response) {
+      if (!response.ok) throw new Error("http " + response.status);
+      return response.json();
+    })
+    .then(function (data) {
+      state.data = data;
+      render();
+    })
+    .catch(function () {
+      document.getElementById("list").appendChild(el("p", "", "Liste indisponible pour le moment."));
+    });
+})();
+</script>
+</body>
+</html>
