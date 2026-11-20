@@ -1,0 +1,66 @@
+{
+  "day": "2026-11-20",
+  "generated_at": "2026-11-20T11:57:05.377466+00:00",
+  "theme_labels": {
+    "chinois": "Chinois",
+    "electronique": "Électronique",
+    "geopolitique": "Géopolitique",
+    "ia": "IA",
+    "ingenierie": "Ingénierie",
+    "maker": "Projets",
+    "science": "Science"
+  },
+  "videos": [
+    {
+      "channel": "ChinesePod",
+      "duration_s": 962,
+      "id": "lAtwVjJiQ0I",
+      "lang": "en",
+      "published_at": "2026-11-20T08:00:12+00:00",
+      "theme": "chinois",
+      "thumb": "https://i.ytimg.com/vi/lAtwVjJiQ0I/hqdefault.jpg",
+      "title": "Intermediate | Bachelor's Day"
+    },
+    {
+      "channel": "Technology Connections",
+      "duration_s": 2254,
+      "id": "FcbwVXk83U8",
+      "lang": "en",
+      "published_at": "2026-11-19T14:59:21+00:00",
+      "theme": "ingenierie",
+      "thumb": "https://i.ytimg.com/vi/FcbwVXk83U8/hqdefault.jpg",
+      "title": "It's a Fiber Optic Christmas (or... was)"
+    },
+    {
+      "channel": "Millomaker",
+      "duration_s": 3354,
+      "id": "h2vGVpHylAk",
+      "lang": "fr",
+      "published_at": "2026-11-15T17:06:20+00:00",
+      "theme": "maker",
+      "thumb": "https://i.ytimg.com/vi/h2vGVpHylAk/hqdefault.jpg",
+      "title": "Réparer des consoles japonaises, c’est super rentable !"
+    },
+    {
+      "channel": "HugoDécrypte - Actus du jour",
+      "duration_s": 839,
+      "id": "jEe_HNZp2Qw",
+      "lang": "fr",
+      "published_at": "2026-11-19T19:00:19+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/jEe_HNZp2Qw/hqdefault.jpg",
+      "title": "Ce qu'il vient de se passer est historique."
+    },
+    {
+      "channel": "Underscore_",
+      "duration_s": 1957,
+      "id": "D-NRC_wnJbc",
+      "lang": "fr",
+      "published_at": "2026-11-17T16:36:59+00:00",
+      "theme": "ia",
+      "thumb": "https://i.ytimg.com/vi/D-NRC_wnJbc/hqdefault.jpg",
+      "title": "\"Moi, les images IA, je les repère de loin\""
+    }
+  ],
+  "warnings": []
+}

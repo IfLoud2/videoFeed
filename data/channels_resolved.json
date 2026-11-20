@@ -1,0 +1,167 @@
+{
+  "3blue1brown": {
+    "id": "UCYO_jab_esuFRV4b17AJtAw",
+    "title": "3Blue1Brown",
+    "via": "handle"
+  },
+  "AndrejKarpathy": {
+    "id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+    "title": "Andrej Karpathy",
+    "via": "handle"
+  },
+  "AppliedScience": {
+    "id": "UCivA7_KLKWo43tFcCkFvydw",
+    "title": "Applied Science",
+    "via": "handle"
+  },
+  "BenEater": {
+    "id": "UCS0N5baNlQWJCUrhCEo8WlA",
+    "title": "Ben Eater",
+    "via": "handle"
+  },
+  "CaspianReport": {
+    "id": "UCwnKziETDbHJtx78nIkfYug",
+    "title": "CaspianReport",
+    "via": "handle"
+  },
+  "ChinesePod": {
+    "id": "UCRY8eBLd9tPFw5-JY7S7O8Q",
+    "title": "ChinesePod",
+    "via": "search"
+  },
+  "Computerphile": {
+    "id": "UC9-y-6csu5WGm29I7JiwpnA",
+    "title": "Computerphile",
+    "via": "handle"
+  },
+  "DrNozman": {
+    "id": "UCWnfDPdZw6A23UtuBpYBbAg",
+    "title": "Dr Nozman",
+    "via": "handle"
+  },
+  "EEVblog": {
+    "id": "UC2DjFE7Xf11URZqWBigcVOQ",
+    "title": "EEVblog",
+    "via": "handle"
+  },
+  "ElectroBOOM": {
+    "id": "UCJ0-OtVpF0wOKEqT2Z1HEtA",
+    "title": "ElectroBOOM",
+    "via": "handle"
+  },
+  "HugoDecrypte": {
+    "id": "UCAcAnMF0OrCtUep3Y4M-ZPw",
+    "title": "HugoDécrypte - Actus du jour",
+    "via": "search"
+  },
+  "Le Dessous des Cartes ARTE": {
+    "id": "UCHGMBrXUzClgjEzBMei-Jdw",
+    "title": "Le Dessous des Cartes - ARTE",
+    "via": "search"
+  },
+  "LeReveilleur": {
+    "id": "UC1EacOJoqsKaYxaDomTCTEQ",
+    "title": "Le Réveilleur",
+    "via": "handle"
+  },
+  "MandarinCorner": {
+    "id": "UC3B-DH5W60TfVs1AKw_P1kw",
+    "title": "Mandarin Corner",
+    "via": "handle"
+  },
+  "MarkRober": {
+    "id": "UCY1kMZp36IQSyNx_9h4mpCg",
+    "title": "Mark Rober",
+    "via": "handle"
+  },
+  "Monsieurbidouille": {
+    "id": "UCSULDz1yaHLVQWHpm4g_GHA",
+    "title": "Monsieur Bidouille",
+    "via": "search"
+  },
+  "PracticalEngineeringChannel": {
+    "id": "UCMOqf8ab-42UUQIdVoKwjlQ",
+    "title": "Practical Engineering",
+    "via": "handle"
+  },
+  "RealEngineering": {
+    "id": "UCR1IuLEqb6UEA_zQ81kwXfg",
+    "title": "Real Engineering",
+    "via": "handle"
+  },
+  "RealLifeLore": {
+    "id": "UCP5tjEmvPItGyLhmjdwP7Ww",
+    "title": "RealLifeLore",
+    "via": "handle"
+  },
+  "ScienceEtonnante": {
+    "id": "UCaNlbnghtwlsGF-KzAFThqA",
+    "title": "ScienceEtonnante",
+    "via": "handle"
+  },
+  "StuffMadeHere": {
+    "id": "UCj1VqrHhDte54oLgPG4xpuQ",
+    "title": "Stuff Made Here",
+    "via": "handle"
+  },
+  "Surlechamp": {
+    "id": "UCiWrr_SnP8eK-_9yJWFzbEA",
+    "title": "Sur le champ",
+    "via": "handle"
+  },
+  "TechnologyConnections": {
+    "id": "UCy0tKL1T7wFoYcxCe0xjN6Q",
+    "title": "Technology Connections",
+    "via": "handle"
+  },
+  "TwoMinutePapers": {
+    "id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "Two Minute Papers",
+    "via": "handle"
+  },
+  "Underscore_": {
+    "id": "UCWedHS9qKebauVIK2J7383g",
+    "title": "Underscore_",
+    "via": "handle"
+  },
+  "Wendoverproductions": {
+    "id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
+    "title": "Wendover Productions",
+    "via": "handle"
+  },
+  "YoyoChinese": {
+    "id": "UCSJyGe2H0C9q6QH0-hH04zw",
+    "title": "Yoyo Chinese",
+    "via": "handle"
+  },
+  "epenser": {
+    "id": "UCcziTK2NKeWtWQ6kB5tmQ8Q",
+    "title": "e-penser 2.0",
+    "via": "search"
+  },
+  "greatscottlab": {
+    "id": "UC6mIxFTvXkWQVEHPsEdflzQ",
+    "title": "GreatScott!",
+    "via": "handle"
+  },
+  "johnnyharris": {
+    "id": "UCmGSJVG3mCRXVOP4yZrU1Dw",
+    "title": "Johnny Harris",
+    "via": "handle"
+  },
+  "kurzgesagt": {
+    "id": "UCsXVk37bltHxD1rDPwtNM8Q",
+    "title": "Kurzgesagt – In a Nutshell",
+    "via": "handle"
+  },
+  "millomaker": {
+    "id": "UChFaUrD7t1JQ0w7rObWhIRA",
+    "title": "Millomaker",
+    "via": "handle"
+  },
+  "veritasium": {
+    "id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+    "title": "Veritasium",
+    "via": "handle"
+  }
+}
