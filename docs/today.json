@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-20",
-  "generated_at": "2026-11-20T11:57:05.377466+00:00",
+  "day": "2026-11-21",
+  "generated_at": "2026-11-21T11:29:39.178543+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "ChinesePod",
-      "duration_s": 962,
-      "id": "lAtwVjJiQ0I",
+      "channel": "Veritasium",
+      "duration_s": 2328,
+      "id": "uXuQF_PPg5U",
       "lang": "en",
-      "published_at": "2026-11-20T08:00:12+00:00",
-      "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/lAtwVjJiQ0I/hqdefault.jpg",
-      "title": "Intermediate | Bachelor's Day"
+      "published_at": "2026-11-18T20:29:44+00:00",
+      "theme": "science",
+      "thumb": "https://i.ytimg.com/vi/uXuQF_PPg5U/hqdefault.jpg",
+      "title": "Randomness is a lie. Let me explain"
     },
     {
-      "channel": "Technology Connections",
-      "duration_s": 2254,
-      "id": "FcbwVXk83U8",
-      "lang": "en",
-      "published_at": "2026-11-19T14:59:21+00:00",
-      "theme": "ingenierie",
-      "thumb": "https://i.ytimg.com/vi/FcbwVXk83U8/hqdefault.jpg",
-      "title": "It's a Fiber Optic Christmas (or... was)"
-    },
-    {
-      "channel": "Millomaker",
-      "duration_s": 3354,
-      "id": "h2vGVpHylAk",
+      "channel": "Le Réveilleur",
+      "duration_s": 1773,
+      "id": "640j5Lvgz4Q",
       "lang": "fr",
-      "published_at": "2026-11-15T17:06:20+00:00",
-      "theme": "maker",
-      "thumb": "https://i.ytimg.com/vi/h2vGVpHylAk/hqdefault.jpg",
-      "title": "Réparer des consoles japonaises, c’est super rentable !"
+      "published_at": "2026-11-16T13:47:02+00:00",
+      "theme": "science",
+      "thumb": "https://i.ytimg.com/vi/640j5Lvgz4Q/hqdefault.jpg",
+      "title": "On n'a pas assez de cuivre pour la transition... vraiment ?"
+    },
+    {
+      "channel": "Le Dessous des Cartes - ARTE",
+      "duration_s": 961,
+      "id": "bg0bTOkJ7N4",
+      "lang": "fr",
+      "published_at": "2026-11-20T17:00:11+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/bg0bTOkJ7N4/hqdefault.jpg",
+      "title": "Meloni, Le Pen, Weidel : trois voies de l'extrême droite européenne | Une leçon de géopolitique"
     },
     {
       "channel": "HugoDécrypte - Actus du jour",
-      "duration_s": 839,
-      "id": "jEe_HNZp2Qw",
+      "duration_s": 746,
+      "id": "e0gKbXu31-8",
       "lang": "fr",
-      "published_at": "2026-11-19T19:00:19+00:00",
+      "published_at": "2026-11-20T19:00:04+00:00",
       "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/jEe_HNZp2Qw/hqdefault.jpg",
-      "title": "Ce qu'il vient de se passer est historique."
+      "thumb": "https://i.ytimg.com/vi/e0gKbXu31-8/hqdefault.jpg",
+      "title": "El Niño débarque en France, les conséquences expliquées"
     },
     {
-      "channel": "Underscore_",
-      "duration_s": 1957,
-      "id": "D-NRC_wnJbc",
-      "lang": "fr",
-      "published_at": "2026-11-17T16:36:59+00:00",
-      "theme": "ia",
-      "thumb": "https://i.ytimg.com/vi/D-NRC_wnJbc/hqdefault.jpg",
-      "title": "\"Moi, les images IA, je les repère de loin\""
+      "channel": "ChinesePod",
+      "duration_s": 556,
+      "id": "xF4OyiDOOQQ",
+      "lang": "en",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "theme": "chinois",
+      "thumb": "https://i.ytimg.com/vi/xF4OyiDOOQQ/hqdefault.jpg",
+      "title": "Elementary | A Horizontal or Vertical Photo?"
     }
   ],
   "warnings": []
