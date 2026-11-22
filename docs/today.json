@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-21",
-  "generated_at": "2026-11-21T11:29:39.178543+00:00",
+  "day": "2026-11-22",
+  "generated_at": "2026-11-22T11:43:52.425952+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "Veritasium",
-      "duration_s": 2328,
-      "id": "uXuQF_PPg5U",
-      "lang": "en",
-      "published_at": "2026-11-18T20:29:44+00:00",
-      "theme": "science",
-      "thumb": "https://i.ytimg.com/vi/uXuQF_PPg5U/hqdefault.jpg",
-      "title": "Randomness is a lie. Let me explain"
-    },
-    {
-      "channel": "Le Réveilleur",
-      "duration_s": 1773,
-      "id": "640j5Lvgz4Q",
-      "lang": "fr",
-      "published_at": "2026-11-16T13:47:02+00:00",
-      "theme": "science",
-      "thumb": "https://i.ytimg.com/vi/640j5Lvgz4Q/hqdefault.jpg",
-      "title": "On n'a pas assez de cuivre pour la transition... vraiment ?"
-    },
-    {
-      "channel": "Le Dessous des Cartes - ARTE",
-      "duration_s": 961,
-      "id": "bg0bTOkJ7N4",
-      "lang": "fr",
-      "published_at": "2026-11-20T17:00:11+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/bg0bTOkJ7N4/hqdefault.jpg",
-      "title": "Meloni, Le Pen, Weidel : trois voies de l'extrême droite européenne | Une leçon de géopolitique"
-    },
-    {
-      "channel": "HugoDécrypte - Actus du jour",
-      "duration_s": 746,
-      "id": "e0gKbXu31-8",
-      "lang": "fr",
-      "published_at": "2026-11-20T19:00:04+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/e0gKbXu31-8/hqdefault.jpg",
-      "title": "El Niño débarque en France, les conséquences expliquées"
-    },
-    {
       "channel": "ChinesePod",
-      "duration_s": 556,
-      "id": "xF4OyiDOOQQ",
+      "duration_s": 731,
+      "id": "gsHbH7AN6CE",
       "lang": "en",
-      "published_at": "2026-11-18T08:00:00+00:00",
+      "published_at": "2026-11-20T08:00:21+00:00",
       "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/xF4OyiDOOQQ/hqdefault.jpg",
-      "title": "Elementary | A Horizontal or Vertical Photo?"
+      "thumb": "https://i.ytimg.com/vi/gsHbH7AN6CE/hqdefault.jpg",
+      "title": "Elementary | Please Speak Mandarin!"
+    },
+    {
+      "channel": "Underscore_",
+      "duration_s": 2707,
+      "id": "7Jk8FFFqLW0",
+      "lang": "fr",
+      "published_at": "2026-11-20T16:11:01+00:00",
+      "theme": "ia",
+      "thumb": "https://i.ytimg.com/vi/7Jk8FFFqLW0/hqdefault.jpg",
+      "title": "Cette limite physique va faire tomber Nvidia"
+    },
+    {
+      "channel": "RealLifeLore",
+      "duration_s": 1901,
+      "id": "OshGmNgfoIs",
+      "lang": "en",
+      "published_at": "2026-11-21T18:45:01+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/OshGmNgfoIs/hqdefault.jpg",
+      "title": "Why You Can't Drive Anywhere In This Part of Alaska"
+    },
+    {
+      "channel": "CaspianReport",
+      "duration_s": 886,
+      "id": "Fwl-tTfthJg",
+      "lang": "en",
+      "published_at": "2026-11-19T07:44:45+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/Fwl-tTfthJg/hqdefault.jpg",
+      "title": "Trump may have just opened Pandora’s box at sea"
+    },
+    {
+      "channel": "3Blue1Brown",
+      "duration_s": 819,
+      "id": "zqzk43bSdDI",
+      "lang": "en",
+      "published_at": "2026-11-22T02:02:12+00:00",
+      "theme": "science",
+      "thumb": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
+      "title": "Since last year, we asked: “What if AI solved the Riemann Hypothesis?”"
     }
   ],
   "warnings": []
