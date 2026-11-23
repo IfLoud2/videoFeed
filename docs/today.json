@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-22",
-  "generated_at": "2026-11-22T11:43:52.425952+00:00",
+  "day": "2026-11-23",
+  "generated_at": "2026-11-23T13:20:10.940752+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "ChinesePod",
-      "duration_s": 731,
-      "id": "gsHbH7AN6CE",
+      "channel": "GreatScott!",
+      "duration_s": 807,
+      "id": "Ds0qNMiMrrQ",
       "lang": "en",
-      "published_at": "2026-11-20T08:00:21+00:00",
-      "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/gsHbH7AN6CE/hqdefault.jpg",
-      "title": "Elementary | Please Speak Mandarin!"
+      "published_at": "2026-11-22T15:50:07+00:00",
+      "theme": "electronique",
+      "thumb": "https://i.ytimg.com/vi/Ds0qNMiMrrQ/hqdefault.jpg",
+      "title": "I Built the Perfect Desktop Companion! (Obviously E-Ink)"
     },
     {
-      "channel": "Underscore_",
-      "duration_s": 2707,
-      "id": "7Jk8FFFqLW0",
+      "channel": "ElectroBOOM",
+      "duration_s": 1214,
+      "id": "onzuuYXSNSc",
+      "lang": "en",
+      "published_at": "2026-11-22T16:00:00+00:00",
+      "theme": "electronique",
+      "thumb": "https://i.ytimg.com/vi/onzuuYXSNSc/hqdefault.jpg",
+      "title": "Investigating the Lightning @museumofscience"
+    },
+    {
+      "channel": "Le Dessous des Cartes - ARTE",
+      "duration_s": 756,
+      "id": "ReieVCjOkto",
       "lang": "fr",
-      "published_at": "2026-11-20T16:11:01+00:00",
-      "theme": "ia",
-      "thumb": "https://i.ytimg.com/vi/7Jk8FFFqLW0/hqdefault.jpg",
-      "title": "Cette limite physique va faire tomber Nvidia"
-    },
-    {
-      "channel": "RealLifeLore",
-      "duration_s": 1901,
-      "id": "OshGmNgfoIs",
-      "lang": "en",
-      "published_at": "2026-11-21T18:45:01+00:00",
+      "published_at": "2026-11-21T11:00:39+00:00",
       "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/OshGmNgfoIs/hqdefault.jpg",
-      "title": "Why You Can't Drive Anywhere In This Part of Alaska"
+      "thumb": "https://i.ytimg.com/vi/ReieVCjOkto/hqdefault.jpg",
+      "title": "Émirats - Arabie saoudite : convergences et divergences | Le Dessous des cartes - ARTE"
     },
     {
-      "channel": "CaspianReport",
-      "duration_s": 886,
-      "id": "Fwl-tTfthJg",
+      "channel": "ChinesePod",
+      "duration_s": 1073,
+      "id": "DqRbyQ_E3VA",
       "lang": "en",
-      "published_at": "2026-11-19T07:44:45+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/Fwl-tTfthJg/hqdefault.jpg",
-      "title": "Trump may have just opened Pandora’s box at sea"
+      "published_at": "2026-11-23T08:34:59+00:00",
+      "theme": "chinois",
+      "thumb": "https://i.ytimg.com/vi/DqRbyQ_E3VA/hqdefault.jpg",
+      "title": "Upper-intermediate | Hiring Discrimination"
     },
     {
-      "channel": "3Blue1Brown",
-      "duration_s": 819,
-      "id": "zqzk43bSdDI",
+      "channel": "Mark Rober",
+      "duration_s": 2048,
+      "id": "gicEOsFtMxw",
       "lang": "en",
-      "published_at": "2026-11-22T02:02:12+00:00",
-      "theme": "science",
-      "thumb": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
-      "title": "Since last year, we asked: “What if AI solved the Riemann Hypothesis?”"
+      "published_at": "2026-11-21T14:00:14+00:00",
+      "theme": "maker",
+      "thumb": "https://i.ytimg.com/vi/gicEOsFtMxw/hqdefault.jpg",
+      "title": "I Tested The World's Most Dangerous Animals"
     }
   ],
   "warnings": []
