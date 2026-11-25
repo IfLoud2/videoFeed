@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-24",
-  "generated_at": "2026-11-24T14:00:30.158433+00:00",
+  "day": "2026-11-25",
+  "generated_at": "2026-11-25T13:14:49.310527+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "HugoDécrypte - Actus du jour",
-      "duration_s": 783,
-      "id": "A2shKBJser4",
-      "lang": "fr",
-      "published_at": "2026-11-21T19:00:09+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/A2shKBJser4/hqdefault.jpg",
-      "title": "Ce qu'il vient de se passer en Bourse est historique"
-    },
-    {
-      "channel": "Wendover Productions",
-      "duration_s": 1143,
-      "id": "HDfFSvCD8j0",
+      "channel": "Two Minute Papers",
+      "duration_s": 487,
+      "id": "hwWlEuI359w",
       "lang": "en",
-      "published_at": "2026-11-21T18:25:31+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/HDfFSvCD8j0/hqdefault.jpg",
-      "title": "The Airport Lounge Race"
+      "published_at": "2026-11-25T09:54:23+00:00",
+      "theme": "ia",
+      "thumb": "https://i.ytimg.com/vi/hwWlEuI359w/hqdefault.jpg",
+      "title": "Claude AI’s Biggest Math Breakthrough Has A Problem."
     },
     {
       "channel": "ChinesePod",
-      "duration_s": 982,
-      "id": "FE-pnJWQbXM",
+      "duration_s": 1019,
+      "id": "piq3ThvaEiU",
       "lang": "en",
-      "published_at": "2026-11-23T08:26:42+00:00",
+      "published_at": "2026-11-25T08:00:10+00:00",
       "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/FE-pnJWQbXM/hqdefault.jpg",
-      "title": "Elementary | Calligraphy Practice"
+      "thumb": "https://i.ytimg.com/vi/piq3ThvaEiU/hqdefault.jpg",
+      "title": "Intermediate | Shopping for the Wife"
     },
     {
-      "channel": "e-penser 2.0",
-      "duration_s": 2391,
-      "id": "GDrrPNvDRkE",
-      "lang": "fr",
-      "published_at": "2026-11-23T17:00:20+00:00",
-      "theme": "science",
-      "thumb": "https://i.ytimg.com/vi/GDrrPNvDRkE/hqdefault.jpg",
-      "title": "Le son qui a sauvé le monde (avant de flop)"
-    },
-    {
-      "channel": "Practical Engineering",
-      "duration_s": 1357,
-      "id": "rj-G_gmFWtE",
+      "channel": "Computerphile",
+      "duration_s": 1502,
+      "id": "4nFA4zntF7I",
       "lang": "en",
-      "published_at": "2026-11-17T14:00:10+00:00",
-      "theme": "ingenierie",
-      "thumb": "https://i.ytimg.com/vi/rj-G_gmFWtE/hqdefault.jpg",
-      "title": "Why Are There So Many Different Transmission Towers?"
+      "published_at": "2026-11-24T19:07:58+00:00",
+      "theme": "ia",
+      "thumb": "https://i.ytimg.com/vi/4nFA4zntF7I/hqdefault.jpg",
+      "title": "Java4Shell Exploit - Computerphile"
+    },
+    {
+      "channel": "EEVblog",
+      "duration_s": 2554,
+      "id": "2ZKOv0lt9vg",
+      "lang": "en",
+      "published_at": "2026-11-24T20:35:19+00:00",
+      "theme": "electronique",
+      "thumb": "https://i.ytimg.com/vi/2ZKOv0lt9vg/hqdefault.jpg",
+      "title": "EEVblog 1787 - Top 5 Jellybean Diodes"
+    },
+    {
+      "channel": "HugoDécrypte - Actus du jour",
+      "duration_s": 939,
+      "id": "7xSfbX3nbJQ",
+      "lang": "fr",
+      "published_at": "2026-11-24T19:03:10+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/7xSfbX3nbJQ/hqdefault.jpg",
+      "title": "GTA VI : ce n'est que le début, le plus important arrive."
     }
   ],
   "warnings": []
