@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-25",
-  "generated_at": "2026-11-25T13:14:49.310527+00:00",
+  "day": "2026-11-26",
+  "generated_at": "2026-11-26T12:55:38.044063+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "Two Minute Papers",
-      "duration_s": 487,
-      "id": "hwWlEuI359w",
+      "channel": "Ben Eater",
+      "duration_s": 684,
+      "id": "Tyx6Hwu-OU0",
       "lang": "en",
-      "published_at": "2026-11-25T09:54:23+00:00",
-      "theme": "ia",
-      "thumb": "https://i.ytimg.com/vi/hwWlEuI359w/hqdefault.jpg",
-      "title": "Claude AI’s Biggest Math Breakthrough Has A Problem."
-    },
-    {
-      "channel": "ChinesePod",
-      "duration_s": 1019,
-      "id": "piq3ThvaEiU",
-      "lang": "en",
-      "published_at": "2026-11-25T08:00:10+00:00",
-      "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/piq3ThvaEiU/hqdefault.jpg",
-      "title": "Intermediate | Shopping for the Wife"
-    },
-    {
-      "channel": "Computerphile",
-      "duration_s": 1502,
-      "id": "4nFA4zntF7I",
-      "lang": "en",
-      "published_at": "2026-11-24T19:07:58+00:00",
-      "theme": "ia",
-      "thumb": "https://i.ytimg.com/vi/4nFA4zntF7I/hqdefault.jpg",
-      "title": "Java4Shell Exploit - Computerphile"
-    },
-    {
-      "channel": "EEVblog",
-      "duration_s": 2554,
-      "id": "2ZKOv0lt9vg",
-      "lang": "en",
-      "published_at": "2026-11-24T20:35:19+00:00",
+      "published_at": "2026-11-25T16:00:05+00:00",
       "theme": "electronique",
-      "thumb": "https://i.ytimg.com/vi/2ZKOv0lt9vg/hqdefault.jpg",
-      "title": "EEVblog 1787 - Top 5 Jellybean Diodes"
+      "thumb": "https://i.ytimg.com/vi/Tyx6Hwu-OU0/hqdefault.jpg",
+      "title": "Why do decoupling capacitors make it worse?"
+    },
+    {
+      "channel": "Sur le champ",
+      "duration_s": 2483,
+      "id": "UpZOXsIUvV8",
+      "lang": "fr",
+      "published_at": "2026-11-26T10:24:41+00:00",
+      "theme": "geopolitique",
+      "thumb": "https://i.ytimg.com/vi/UpZOXsIUvV8/hqdefault.jpg",
+      "title": "Hybridation militaire : La Campagne d'Oswego 1756"
     },
     {
       "channel": "HugoDécrypte - Actus du jour",
-      "duration_s": 939,
-      "id": "7xSfbX3nbJQ",
+      "duration_s": 877,
+      "id": "zVpZzr-3VRU",
       "lang": "fr",
-      "published_at": "2026-11-24T19:03:10+00:00",
+      "published_at": "2026-11-25T19:00:29+00:00",
       "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/7xSfbX3nbJQ/hqdefault.jpg",
-      "title": "GTA VI : ce n'est que le début, le plus important arrive."
+      "thumb": "https://i.ytimg.com/vi/zVpZzr-3VRU/hqdefault.jpg",
+      "title": "Même l’or chute."
+    },
+    {
+      "channel": "ChinesePod",
+      "duration_s": 883,
+      "id": "5Lk8wQjEM4U",
+      "lang": "en",
+      "published_at": "2026-11-25T08:00:37+00:00",
+      "theme": "chinois",
+      "thumb": "https://i.ytimg.com/vi/5Lk8wQjEM4U/hqdefault.jpg",
+      "title": "Elementary | Quieting the Baby"
+    },
+    {
+      "channel": "Veritasium",
+      "duration_s": 1684,
+      "id": "WbM7GP7QoEM",
+      "lang": "en",
+      "published_at": "2026-11-25T14:00:52+00:00",
+      "theme": "science",
+      "thumb": "https://i.ytimg.com/vi/WbM7GP7QoEM/hqdefault.jpg",
+      "title": "Scientists Said This Wave Was Impossible"
     }
   ],
   "warnings": []
