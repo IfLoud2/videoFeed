@@ -1,6 +1,6 @@
 {
-  "day": "2026-11-26",
-  "generated_at": "2026-11-26T12:55:38.044063+00:00",
+  "day": "2026-11-27",
+  "generated_at": "2026-11-27T12:51:14.719877+00:00",
   "theme_labels": {
     "chinois": "Chinois",
     "electronique": "Électronique",
@@ -12,54 +12,54 @@
   },
   "videos": [
     {
-      "channel": "Ben Eater",
-      "duration_s": 684,
-      "id": "Tyx6Hwu-OU0",
+      "channel": "ChinesePod",
+      "duration_s": 945,
+      "id": "ys4a3kOTh7g",
       "lang": "en",
-      "published_at": "2026-11-25T16:00:05+00:00",
-      "theme": "electronique",
-      "thumb": "https://i.ytimg.com/vi/Tyx6Hwu-OU0/hqdefault.jpg",
-      "title": "Why do decoupling capacitors make it worse?"
-    },
-    {
-      "channel": "Sur le champ",
-      "duration_s": 2483,
-      "id": "UpZOXsIUvV8",
-      "lang": "fr",
-      "published_at": "2026-11-26T10:24:41+00:00",
-      "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/UpZOXsIUvV8/hqdefault.jpg",
-      "title": "Hybridation militaire : La Campagne d'Oswego 1756"
+      "published_at": "2026-11-27T08:00:18+00:00",
+      "theme": "chinois",
+      "thumb": "https://i.ytimg.com/vi/ys4a3kOTh7g/hqdefault.jpg",
+      "title": "Elementary | Need a Sofa?"
     },
     {
       "channel": "HugoDécrypte - Actus du jour",
-      "duration_s": 877,
-      "id": "zVpZzr-3VRU",
+      "duration_s": 716,
+      "id": "7be6WlMfskw",
       "lang": "fr",
-      "published_at": "2026-11-25T19:00:29+00:00",
+      "published_at": "2026-11-26T19:00:36+00:00",
       "theme": "geopolitique",
-      "thumb": "https://i.ytimg.com/vi/zVpZzr-3VRU/hqdefault.jpg",
-      "title": "Même l’or chute."
+      "thumb": "https://i.ytimg.com/vi/7be6WlMfskw/hqdefault.jpg",
+      "title": "Les images de l’arrestation spectaculaire d’un chef de cartel au Mexique"
     },
     {
-      "channel": "ChinesePod",
-      "duration_s": 883,
-      "id": "5Lk8wQjEM4U",
+      "channel": "EEVblog",
+      "duration_s": 2150,
+      "id": "iMxp-Psls20",
       "lang": "en",
-      "published_at": "2026-11-25T08:00:37+00:00",
-      "theme": "chinois",
-      "thumb": "https://i.ytimg.com/vi/5Lk8wQjEM4U/hqdefault.jpg",
-      "title": "Elementary | Quieting the Baby"
+      "published_at": "2026-11-17T02:22:48+00:00",
+      "theme": "electronique",
+      "thumb": "https://i.ytimg.com/vi/iMxp-Psls20/hqdefault.jpg",
+      "title": "EEVblog 1786 - OWON ADS3500A 500MHz Oscilloscope TEARDOWN"
     },
     {
-      "channel": "Veritasium",
-      "duration_s": 1684,
-      "id": "WbM7GP7QoEM",
+      "channel": "3Blue1Brown",
+      "duration_s": 2245,
+      "id": "qbsb9DpdZ6s",
       "lang": "en",
-      "published_at": "2026-11-25T14:00:52+00:00",
+      "published_at": "2026-11-17T16:43:16+00:00",
       "theme": "science",
-      "thumb": "https://i.ytimg.com/vi/WbM7GP7QoEM/hqdefault.jpg",
-      "title": "Scientists Said This Wave Was Impossible"
+      "thumb": "https://i.ytimg.com/vi/qbsb9DpdZ6s/hqdefault.jpg",
+      "title": "This algorithm changed how I think about compression | Compression & Intelligence, part 3"
+    },
+    {
+      "channel": "e-penser 2.0",
+      "duration_s": 2493,
+      "id": "dEMlGqBI5nk",
+      "lang": "fr",
+      "published_at": "2026-11-16T17:00:19+00:00",
+      "theme": "science",
+      "thumb": "https://i.ytimg.com/vi/dEMlGqBI5nk/hqdefault.jpg",
+      "title": "Comment on fabrique des OGM"
     }
   ],
   "warnings": []
